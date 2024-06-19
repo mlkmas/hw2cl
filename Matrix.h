@@ -204,6 +204,15 @@ public:
         }
         return os;
     }
+     T& operator()( const int i,const int j)
+    {
+        return data[i][j];
+    }
+    const T& operator()( const int i,const int j) const
+    {
+        return data[i][j];
+    }
+
 
 
 
